@@ -1,0 +1,16 @@
+.controls
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.fas
+{
+    color: #5D57C8;
+}
+
+.hidden
+{
+    visibility: hidden;
+}

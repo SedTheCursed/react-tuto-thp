@@ -1,0 +1,27 @@
+article.card
+{
+    background: white;
+    border: none;
+    border-top: 3px solid #5E66E5;
+    box-shadow: 0 1px 15px 1px rgba(62,57,107,.07);
+    padding: 1.5rem;
+    font-size: 15px;
+}
+
+article p
+{
+    text-align: justify;
+}
+
+pre
+{
+    background: black;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+dd
+{
+    margin-left: 20px;
+}
