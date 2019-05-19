@@ -2,6 +2,7 @@
   "name": "mission",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "engines": {
     "npm" : "6.9.0",
     "node" : "10.15.3"
