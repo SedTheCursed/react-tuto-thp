@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component as c } from 'react';
 import './App.css';
 import course from "./course.json";
 import Chapter from "./Chapter";
 import Controls from "./Controls"
 
-class App extends Component {
+export default class App extends c {
   constructor(props) {
     super(props)
     this.state = {article: 0}
@@ -63,5 +63,3 @@ class App extends Component {
     )
   }
 }
-
-export default App;
