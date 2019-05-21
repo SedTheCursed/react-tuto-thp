@@ -1,3 +1,8 @@
+# react-tuto-thp
+Cours d'initiation à React
+
+Consulter la version production du site : https://react-tuto-thp.herokuapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
