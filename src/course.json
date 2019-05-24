@@ -31,9 +31,4 @@
             "titles" : ["4. Points importants à retenir"],
             "content" : "La partie précédente explique de manière exhaustive la ressource. Cette partie est le \"récapitulatif à emporter avec soi\". Quels sont les points importants à retenir ? Quel est le strict minimum de la ressource à garder pour la faire marcher ? C'est ici que cela se passe."
         },
-        {
-            "titles" : ["5. Pour aller plus loin"],
-            "content" : "Dans cette partie, nous mettons les liens qui nous semblent intéressants pour approfondir la ressource. Pour chaque lien, il faudra mentionner la partie qui nous intéresse, ainsi la raison pourquoi on met le lien.<p><a href=\"books/reactjs.pdf\" target=\"_blank\"/>Learning React</a> de Alex Banks & Eve Porcello<br/><p><a href=\"books/reactnative.pdf\" target=\"_blank\"/>Learning React Native</a> de Bonnie Eisenman</p>"
-        }
-    ]
-}
+        {"titles" : ["5. Pour aller plus loin"],"content" : "<p>Voici quelques liens pour aller plus loin dans le monde de React&nbsp;:</p><ul><li><a href=\"https://openclassrooms.com/fr/courses/4664381-realisez-une-application-web-avec-react-js\">Le cours</a> de Christophe PORTENEUVE, aborde certains concepts plus avancés, comme le cycle de vie d'un composant, la gestion des formulaires et les tests automatisés, qui profitent d'une partie complète.</li><li>Deux articles de <a href=\"https://learnetto.com/blog/3-ways-to-use-react-with-ruby-on-rails-5\" target=\"_blank\">Hrishi MITTAL</a> et de <a href=\"https://www.zaratan.fr/posts/migrate_from_erb_to_react/\" target=\"_blank\">Zaratan</a> expliquent comment combiner <strong>React</strong> et <strong>Ruby on Rails</strong>.</li><li><a href=\"books/reactjs.pdf\" target=\"_blank\"/>Learning React</a> de Alex BANKS & Eve PORCELLO, certes un peu daté, traite dans son dernier tiers de l'externalisation de l'état local, grâce à la bibliothèque <strong>Redux</strong>.</li><li><a href=\"books/reactnative.pdf\" target=\"_blank\"/>Learning React Native</a> de Bonnie EISENMAN, permet d'apprendre à faire des applications iOS et Android natives en utilisant React.</li></ul>"}]}
