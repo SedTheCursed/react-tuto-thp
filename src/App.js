@@ -7,7 +7,7 @@ import Controls from "./Controls"
 export default class App extends c {
   constructor(props) {
     super(props)
-    this.state = { article: 22 }
+    this.state = { article: 0 }
   }
 
   previousArticle = () => { this.changeArticle(-1) }
