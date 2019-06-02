@@ -7,7 +7,7 @@ import Controls from "./Controls"
 export default class App extends c {
   constructor(props) {
     super(props)
-    this.state = {article: 0}
+    this.state = { article: 22 }
   }
 
   previousArticle = () => { this.changeArticle(-1) }
@@ -31,11 +31,13 @@ export default class App extends c {
   infoMenu() {
     const {chapters} = course
 
-    return chapters.map( (chapter, index) => ({
-      rank : chapter.titles.length-1,
-      title : chapter.titles[chapter.titles.length-1],
-      index : index
-    }))
+    return chapters.map(
+      (chapter, index) => ({
+        rank : chapter.titles.length-1,
+        title : chapter.titles[chapter.titles.length-1],
+        index : index
+      })
+    )
   }
 
   selectArticle = (e) => { this.setState({article: parseInt(e.target.value)})}

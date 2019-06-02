@@ -20,3 +20,43 @@ h1
 {
   margin: 20px;
 }
+
+pre
+{
+  tab-size: 2;
+}
+
+pre reserved
+{
+  color: lightskyblue;
+}
+
+pre var
+{
+  color: orange;
+}
+
+pre prop
+{
+  color: lawngreen;
+}
+
+pre coord
+{
+  color: rgb(253, 75, 75);
+}
+
+pre string
+{
+  color: rgb(236, 224, 91);
+}
+
+pre bool
+{
+  color: rgb(168, 74, 231)
+}
+
+pre com
+{
+  color: gray;
+}
