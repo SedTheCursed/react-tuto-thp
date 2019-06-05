@@ -1,62 +1,6 @@
-       /*
-Appeler setState avec un objet, ça fait quoi ?
+import React, {Component} from 'react'
 
-Ça envoie une série de modifications à l’état local du composant. Il faut bien comprendre que ce n’est pas le nouvel état dans son intégralité, mais juste des différences. C’est pratique, car ça évite de toujours devoir envoyer un état complet ; si on veut juste changer une propriété de l’état, on se contente de cette propriété :
-
-this.setState({ open: true }) // modifie uniquement cette propriété
-
-Les soucis commencent lorsqu’on oublie cet aspect « différentiel » et que l'on omet donc de réinitialiser certains champs. Imaginons un état représentant les champs d’un formulaire que l'on souhaiterait remettre à vide :
-
-class Form extends Component {
-
-  constructor(props) {
-
-    super(props)
-
-    this.state = { name: '', target: 5, units: '' }
-
-  }
-
-
-  // …
-
-
-  resetForm() {
-
-    this.setState({}) // Ooops !
-
-  }
-
-}
-
-Ici,  resetForm()  ne réinitialisera en fait rien du tout, car ce que l'on envoie n'est autre qu'une liste vide de modifications. Voici une implémentation correcte :
-
-const DEFAULT_STATE = { name: '', target: 5, units: '' }
-
-
-class Form extends Component {
-
-  constructor(props) {
-
-    super(props)
-
-    this.state = { ...DEFAULT_STATE }
-
-  }
-
-
-  // …
-
-
-  resetForm() {
-
-    this.setState(DEFAULT_STATE) // Mieux !
-
-  }
-
-}
-
-Attention, c’est asynchrone !
+/*Attention, c’est asynchrone !
 
 Un autre aspect fondamental de  setState()  : il est asynchrone. Il traitera donc les mises à jour plus tard, au moment le plus opportun, par lots. Voici un exemple d’utilisation naïve qui ne fonctionnera pas du tout :
 
