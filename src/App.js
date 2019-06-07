@@ -33,7 +33,6 @@ export default class App extends c {
 
     return chapters.map(
       (chapter, index) => ({
-        rank : chapter.titles.length-1,
         title : chapter.titles[chapter.titles.length-1],
         index : index
       })

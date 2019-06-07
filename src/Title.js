@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import "./Title.css"
 
 const Title = function({text, index}){
@@ -16,6 +17,16 @@ const Title = function({text, index}){
         default:
             return ""
     }
+}
+
+Title.defaultProps = {
+    text: "TITRE",
+    index: 0
+}
+
+Title.propTypes = {
+    text: PropTypes.string.isRequired,
+    index: PropTypes.number.isRequired
 }
 
 export default Title
